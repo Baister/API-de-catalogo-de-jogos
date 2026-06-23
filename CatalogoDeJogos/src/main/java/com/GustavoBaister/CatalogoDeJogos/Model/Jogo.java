@@ -30,6 +30,8 @@ public class Jogo {
 
     public String getTitulo(){ return titulo; }
 
+    public String getDesenvolvedora(){ return desenvolvedora; }
+
     public Integer getAnoLancamento(){ return anoLancamento; }
 
     public Double getPreco(){ return preco;}
@@ -37,4 +39,27 @@ public class Jogo {
     public boolean isAtivo(){ return ativo; }
 
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setDesenvolvedora(String desenvolvedora) {
+        this.desenvolvedora = desenvolvedora;
+    }
+
+    public void setAnoLancamento(Integer anoLancamento) {
+        this.anoLancamento = anoLancamento;
+    }
+
+    public void setPreco(Double preco) {
+        this.preco = preco;
+    }
+
+    public void setAtivo(boolean ativo) {
+        this.ativo = ativo;
+    }
 }
