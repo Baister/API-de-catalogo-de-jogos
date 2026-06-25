@@ -20,6 +20,7 @@ public class JogoService {
         return new JogoResponse(
                 jogo.getId(),
                 jogo.getTitulo(),
+                jogo.getAnoLancamento(),
                 jogo.getDesenvolvedora(),
                 jogo.getPreco()
         );
